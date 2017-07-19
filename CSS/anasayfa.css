@@ -1,0 +1,383 @@
+.ortasoru{
+  width:530px;
+  height: auto;
+  position:relative;
+  float:left;
+  margin-top: 10px;
+  margin-left: 400px;
+  background-color: #fcfcfc;
+  z-index: 3;
+}
+.kimhakkinda{
+  width:530px;
+  height: auto;
+  border-bottom: 1px solid #e6e6e6;
+  margin-left: 0px;
+  margin-top: 5px;
+  background-color: #fcfcfc;
+  position:relative;
+  float:left;
+}
+.ait{
+  width:auto;
+  height: 20px;
+  color:#26a020;
+  font-size: 15px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin-left: 15px;
+  position:relative;
+  float:left;
+}
+.ait:link{
+  text-decoration: none;
+}
+.ait:hover{
+  text-decoration: underline;
+  color:#26a020;
+}
+.ait2{
+  width:auto;
+  height: 25px;
+  color:#3a3e39;
+  font-size: 15px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin-left: 5px;
+  position:relative;
+  float:left;
+}
+
+.ait2:link{
+  text-decoration: none;
+}
+.ait2:hover{
+  text-decoration: underline;
+  color:#26a020;
+}
+.hakkinda{
+  color:#5e5e5e;
+  font-size: 15px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin-left: 4px;
+  position:relative;
+  float:left;
+}
+.profilkismi{
+  width:530px;
+  height: auto;
+  position:relative;
+  float:left;
+}
+
+.image{
+  width: 35px;
+  height: 35px;
+  border-radius: 17px;
+  margin-top: 10px;
+  margin-left: 15px;
+  position: relative;
+  float:left;
+
+}
+.ait3{
+  width:auto;
+  height: 40px;
+  color:#26a020;
+  font-size: 15px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin-left: 5px;
+  margin-top: 15px;
+  position: relative;
+  float:left;
+
+}
+.ait3:link{
+  text-decoration: none;
+}
+.ait3:hover{
+  text-decoration: underline;
+}
+
+.fark{
+  width:auto;
+  height: 40px;
+  color:#b2b2b2;
+  font-size: 15px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin-left: 5px;
+  position:relative;
+  float:left;
+}
+.saattur{
+  color:#b2b2b2;
+  font-weight: 300;
+  margin-left: 15px;
+  margin-top: 15px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  position:relative;
+  float:left;
+}
+
+.bildir{
+  width: 40px;
+  height: 20px;
+  background: url("fotolarim/bildiracik.png");
+  background-repeat: no-repeat;
+  cursor:pointer;
+  margin-top: 15px;
+  position:relative;
+  float:right;
+}
+.bildir:hover{
+  background: url("fotolarim/bildirkoyu.png");
+  background-repeat: no-repeat;
+}
+
+.soruveimg{
+  width:530px;
+  height: auto;
+  position: relative;
+  float:left;
+}
+
+.soru{
+  font-size: 20px;
+  color: #4c4c4c;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin-left: 15px;
+  position: relative;
+  float:left;
+}
+
+.resim_bolumu{
+  width: 500px;
+  height: 280px;
+  position: relative;
+  float: left;
+  border:1px solid #e6e6e6;
+  margin-left: 15px;
+}
+
+.hersey{
+  width: 500px;
+  height: 80px;
+  float: left;
+  position: relative;
+  margin-left: 400px;
+  background-color:#fdd4b1;
+  list-style-type:none;
+}
+
+.ul.ul_hersey
+{
+list-style-type:none;
+margin:200px;
+padding:0;
+float:right;
+}
+.ul.ul_hersey li
+{
+  list-style-type:none;
+position:relative;// /*Katmanın yerinin bir önceki katman esas alınarak belirlenmesini sağlar. Burada Lİ özelliği UL'yi esas alarak yerini belirler.*/
+width:130px;//genişliği 130px olarak ayarlandı
+border:solid 2px rgb(178, 178, 178);
+}
+.ul.ul_hersey a:hover
+{
+  list-style-type:none;
+background-color:#FF00FF;
+color:#FFFFFF;
+}
+.ul.ul_hersey a //linklerin özellikleri
+{
+  list-style-type:none;
+text-decoration:none; //linklerin altındaki çizgiyi kaldır
+display:block; //linkleri alt alta göster
+background-color:#00FFFF; //zemin rengi
+border:1px solid #000; //çerçeve özellikleri
+padding:1px; / iç boşluk
+}
+.ul.ul_hersey ul
+{
+list-style-type:none; //listeleme işaretlerini kaldır
+margin:0; //Dış boşlukları sıfırla
+padding:0; //İç boşlukları sıfırla
+}
+.ul.ul_hersey li:hover ul
+{
+display:block;
+list-style-type:none;//li üzerine gelince ul yi göster
+}
+.ul.ul_hersey li ul
+{
+display:none; //li nin içindeki ul'yi gizle
+position:absolute; // li nin pozisyonu bir önceki relative nesneye göre ayarlanıyor
+left:129px; //soldan 129px boşluk bırakılıyor.
+top:0;
+width:130px;list-style-type:none;
+list-style-type:none;
+}
+
+.taglar{
+  width:530px;
+  height: auto;
+  position: relative;
+  float:left;
+}
+
+.yorumbegeni{
+  width:530px;
+  height: auto;
+  position: relative;
+  float:left;
+}
+.miniprofil{
+  width:250px;
+  height: auto;
+  float:left;
+  background-color: white;
+    margin-left: 60px;
+
+}
+.kapak{
+  width:250px;
+  height: 50px;
+
+  float:left;
+}
+.image_kapak{
+  width:100%;
+  height: 50px;
+
+}
+.image_profil{
+  width: 55px;
+  height: 55px;
+  border-radius: 29px;
+  border:2px solid #fff;
+  margin-top: -10px;
+  margin-left: 90px;
+  position: relative;
+  float:left;
+  z-index: 2;
+}
+.hr{
+  width: 100%;
+  height: 55px;
+  float:left;
+  margin-top:-40px;
+  margin-left: 0px;
+  z-index: 1;
+}
+.isim{
+  width: 100%;
+  height: 30px;
+  float:left;
+  margin-left:10px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 15px;
+
+}
+.baginti{
+  color:#26a020;
+  text-decoration: none;
+
+}
+.baginti:hover{
+  text-decoration: underline;
+}
+.gonderi{
+  width: 125px;
+  height: auto;
+  float:left;
+  margin-bottom:20px;
+}
+.gonderim{
+  width: 125px;
+  height:auto ;
+  float:left;
+  margin-left:10px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 13px;
+}
+.takipci{
+  width: 125px;
+  height: auto;
+  float:left;
+  margin-bottom:20px;
+}
+.takipcilerim{
+  width: 125px;
+  height:auto ;
+  float:left;
+  margin-left:10px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 13px;
+}
+.kacyorum{
+  font-size: 14px;
+    color: #999;
+    text-decoration: none;
+    margin-left:15px;
+    font-family:Helvetica ;
+    float:left;
+}
+
+.paylas{
+  float:right;
+  background: url("../fotolarim/ok.png");
+  margin-left: 25px;
+  margin-top: 5px;
+  width: 23px;
+  height: 23px;
+  background-repeat: no-repeat;
+}
+.paylas:hover{
+    float:right;
+    width: 23px;
+    height: 23px;
+    margin-top: 5px;
+    margin-left: 25px;
+    background: url("../fotolarim/okkoyu.png");
+    background-repeat: no-repeat;
+}
+.begeni_degerim{
+    font-size: 14px;
+    color: #999;
+    text-decoration: none;
+    margin-left:15px;
+    font-family:Helvetica ;
+    float:left;
+}
+.kalp{
+    float:left;
+    background: url("../fotolarim/kalpsiz.png");
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 27px;
+    height: 26px;
+    background-repeat: no-repeat;
+  }
+  .kalp:hover{
+      float:left;
+      width: 27px;
+      height: 26px;
+      margin-top: 5px;
+      margin-left: 5px;
+      background: url("../fotolarim/kirmizikalp.png");
+      background-repeat: no-repeat;
+  }
+.kalp2{
+    float:left;
+    width: 27px;
+    height: 26px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background: url("../fotolarim/kirmizikalp.png");
+    background-repeat: no-repeat;
+}
+
+
+.clear{
+
+  clear:left;
+}

@@ -1,0 +1,304 @@
+.ortakismi{
+  float:left;
+  width:840px;
+  height: auto;
+  margin-left:320px;
+  position:relative;
+  margin-top: 40px;
+  background-color: #fff;
+}
+
+.benim_kapak_fotom{
+  float:left;
+  position:relative;
+  width:98%;
+  height: 200px;
+  margin-top: 10px;
+}
+.image_kapak_resmim{
+  float:left;
+  width:100%;
+  height: 200px;
+  margin-left:10px;
+}
+.dusuncelerim{
+  float:left;
+  padding:5px 15px;
+  border:1px solid #ccc;
+  width:98%;
+  height: 40px;
+  font-size:15px;
+  margin-bottom: 10px;
+  margin-top: 15px;
+  margin-left:10px;
+}
+
+.kafa{
+  float:left;
+  padding:5px 15px;
+  border:1px solid #ccc;
+  width:75%;
+  height: 25px;
+  font-size:15px;
+  margin-bottom: 10px;
+  margin-top: -10px;
+  margin-left:10px;
+
+}
+.kafaresmi{
+    float:left;
+    background: url("../fotolarim/kafa.png");
+    width: 28px;
+    height: 27px;
+}
+.kafaresmi:hover{
+    float:left;
+    width: 28px;
+    height: 28px;
+background: url("../fotolarim/gulenkafa.png");
+
+}
+.gif{
+  float:left;
+  background: url("../fotolarim/gif1.png");
+  margin-left: 25px;
+  width: 27px;
+  height: 26px;
+}
+.gif:hover{
+    float:left;
+    width: 27px;
+    height: 26px;
+    margin-left: 25px;
+    background: url("../fotolarim/gif2.png");
+}
+
+.resimikonu{
+  float:left;
+  background: url("../fotolarim/resimacik.png");
+  margin-left: 25px;
+  margin-top: 3px;
+  width: 27px;
+  height: 20px;
+}
+.resimikonu:hover{
+    float:left;
+    width: 27px;
+    height: 26px;
+    margin-left: 25px;
+    margin-top: -3px;
+background: url("../fotolarim/resimkoyu.png");
+}
+.yayinla2{
+  position: relative;
+  float:left;
+  margin-left:10px;
+
+}
+.yayinla2{
+  padding:0 10px;
+  border-radius: 4px;
+  background-color: #55bf4e;
+  color:#fff;
+  height: 30px;
+  width: 110px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  font-weight: 500;
+  margin-right: 25px;
+  margin-top:-5px;
+  border:1px solid #55bf4e;
+  float: right;
+  position: relative;
+}
+.yayinla2:hover{
+  background-color:  #50b34d;
+}
+
+.cevaplar{
+  width:100%;
+  height:auto;
+  float: left;
+}
+.yanitsayisi{
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 15px;
+  color:#50b34d;
+  margin-top:30px;
+  margin-left:10px;
+  float:left;
+}
+.hr{
+  margin-left: 10px;
+  width: 45px;
+  height:1px;
+  background-color: #50b34d;
+}
+
+.ortaminiprofil{
+  width: 200px;
+  height: 300px;
+  border-radius: 27px;
+  border:2px solid #fff;
+
+  margin-right:10px;
+  position: relative;
+  float:right;
+  background-color: #fff;
+  z-index: 2;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  color:#b2b2b2;
+}
+.ad_soyad{
+  width: 100%;
+  height: 15px;
+  float:left;
+  margin-left:0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 13px;
+  color:#26a020;
+  text-decoration: none;
+
+}
+.ad_soyad:hover{
+  text-decoration: underline;
+}
+.kapak{
+  width:250px;
+  height: 50px;
+
+  float:left;
+}
+.image_fotom{
+  width: 70px;
+  height: 70px;
+  border-radius: 36px;
+  border:2px solid #fff;
+  margin-top: -10px;
+  margin-left: 40px;
+  position: relative;
+  float:left;
+}
+.saga_at{
+  float:right;
+}
+.hepsinial{
+  width: 550px;
+  height: auto;
+  float:left;
+  margin-left:10px;
+  margin-top:20px;
+  border:1px solid #e6e6e6;
+}
+.ait{
+  width: 100%;
+  height: 15px;
+  float:left;
+  margin-left:10px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  color:#26a020;
+  text-decoration: none;
+}
+.ait:hover{
+  text-decoration: underline;
+}
+.ait2{
+  width: 100%;
+  height: 15px;
+  float:left;
+  margin-left:10px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  color:#5e5e5e;
+  text-decoration: none;
+}
+.cevabim{
+  width: 90%;
+  height: auto;
+  float:left;
+  margin-left:30px;
+  margin-top:20px;
+  border:1px solid #e6e6e6;
+}
+.cevap_profil{
+  width: 94%;
+  height: auto;
+  float:left;
+  margin-left:30px;
+  margin-top:20px;
+}
+.profilimresmim{
+  width: 30px;
+  height: 30px;
+  border-radius: 16px;
+  border:2px solid #fff;
+  margin-top: -10px;
+  margin-left: -20px;
+  position: relative;
+  float:left;
+  z-index: 2;
+}
+
+.ait3{
+  width: 100%;
+  height: 15px;
+  float:left;
+  margin-left:25px;
+  margin-top:-25px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  color:#26a020;
+  text-decoration: none;
+}
+.ait3:hover{
+  text-decoration: underline;
+}
+
+.zaman{
+  width: 100%;
+  height: 15px;
+  float:left;
+  position: absolute;
+  margin-left:170px;
+  margin-top:0px;
+}
+.saattur{
+  width: 100%;
+  height: 15px;
+  float:left;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  color:#b2b2b2;
+}
+.font{
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+}
+
+.adsoyadprofil{
+width:200px;
+height: auto;
+float:left;
+}
+
+.bildir{
+  float:right;
+  background: url("../fotolarim/bildiracik.png");
+  margin-left: 25px;
+  margin-top: 5px;
+  width: 27px;
+  height: 26px;
+  background-repeat: no-repeat;
+}
+.bildir:hover{
+    float:right;
+    width: 27px;
+    height: 26px;
+    margin-top: 5px;
+    margin-left: 25px;
+    background: url("../fotolarim/bildirkoyu.png");
+    background-repeat: no-repeat;
+}
